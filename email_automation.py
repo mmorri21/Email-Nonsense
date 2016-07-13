@@ -34,5 +34,5 @@ send_from = 'teddysbots@gmail.com'
 password = 'goillini'
 send_to = ['3097122185@vtext.com']
 subject = ''
-body = 'This is a test2.'
+body = 'This is a test!!'
 send_mail(send_from, password, send_to, subject, body)
