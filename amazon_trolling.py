@@ -25,7 +25,7 @@ def send_mail(send_from, password, send_to, reply_to, subject, body, server="smt
 send_from = 'teddysbots@gmail.com'
 password = 'goillini'
 send_to = ['3097122185@vtext.com']
-reply_to = '7644111809'
+reply_to = '4681876654'
 subject = ''
-body = "What is the air speed velocity of an unladen swallow?"
+body = "Warthogs have disproportionately large HEADS with warts-thick protective-pads"
 send_mail(send_from, password, send_to, reply_to, subject, body)
