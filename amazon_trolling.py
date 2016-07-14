@@ -27,5 +27,5 @@ password = 'goillini'
 send_to = ['3097122185@vtext.com']
 reply_to = '262966'
 subject = ''
-body = "Shipped: Your Amazon package with Pink Furby (Quantity 1,000) will be delivered Fri, Jul 15."
+body = "Shipped: Your Amazon purchase of Astroglide (1 gal) will be delivered soon, perv."
 send_mail(send_from, password, send_to, reply_to, subject, body)
