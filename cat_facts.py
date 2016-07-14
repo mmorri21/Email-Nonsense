@@ -40,7 +40,7 @@ facts = [
         "A cat has been mayor of Talkeetna, Alaska, for 15 years. His name is Stubbs.",
         "And one ran for mayor of Mexico City in 2013.",
         "In tigers and tabbies, the middle of the tongue is covered in backward-pointing spines, used for breaking off",
-        "When cats grimace, they are usually \"taste-scenting.\" They have an extra organ that, with some breathing cont",
+        "When cats grimace, they are usually \"taste-scenting.\" They have an extra organ that, with some breathing control, allows the cats to taste-sense the air.",
         "Cats can't taste sweetness.",
         "Owning a cat can reduce the risk of stroke and heart attack by a third.",
         "Wikipedia has a recording of a cat meowing because why not?",
@@ -54,17 +54,17 @@ facts = [
         "Cats are often lactose intolerant, so stop givin' them milk!",
         "Basically all cartoon cats lied to us: Raw fish is off the table for cats as well.",
         "The oldest cat video on YouTube dates back to 1894 (when it was made, not when it was uploaded, duh).",
-        "In the 1960s, the CIA tried to turn a cat into a bonafide spy by implanting a microphone into her ear and a",
+        "In the 1960s, the CIA tried to turn a cat into a bonafide spy by implanting a microphone into her ear and a radio transmitter at the base of her skull. She somehow survived the surgery but got hit by a taxi on her first mission.",
         "The technical term for \"hairball\" is \"bezoar.\"",
         "Female cats are typically right-pawed while male cats are typically left-pawed.",
         "Cats make more than 100 different sounds whereas dogs make around 10.",
         "A cat's brain is 90% similar to a human's — more similar than to a dog's.",
         "Cats and humans have nearly identical sections of the brain that control emotion.",
-        "A cat's cerebral cortex (the part of the brain in charge of cognitive information processing) has 300 millio",
-        "Cats have a longer-term memory than dogs, especially when they learn by actually doing rather than simply se",
-        "Basically, cats have a lower social IQ than dogs but can solve more difficult cognitive problems when they f",
+        "A cat's cerebral cortex (the part of the brain in charge of cognitive information processing) has 300 million neurons, compared with a dog's 160 million.",
+        "Cats have a longer-term memory than dogs, especially when they learn by actually doing rather than simply seeing",
+        "Basically, cats have a lower social IQ than dogs but can solve more difficult cognitive problems when they feel like it",
         "Cats have 1,000 times more data storage than an iPad.",
-        "It was illegal to slay cats in ancient Egypt, in large part because they provided the great service of contr",
+        "It was illegal to slay cats in ancient Egypt, in large part because they provided the great service of controlling the rat population.",
         "In the 15th century, Pope Innocent VIII began ordering the killing of cats, pronouncing them demonic.",
         "A cat has five toes on his front paws, and four on the back, unless he's a polydactyl.",
         "Polydactyl cats are also referred to as \"Hemingway cats\" because the author was so fond of them.",
@@ -77,12 +77,12 @@ facts = [
         "A cat can jump up to six times its length.",
         "A house cat is faster than Usain Bolt.",
         "When cats leave their poop uncovered, it is a sign of aggression to let you know they don't fear you.",
-        "Cats can change their meow to manipulate a human. They often imitate a human baby when they need food, for e",
+        "Cats can change their meow to manipulate a human. They often imitate a human baby when they need food, for example.",
         "Cats use their whiskers to detect if they can fit through a space.",
         "Cats only sweat through their foot pads.",
         "The first cat in space was French. She was named Felicette, or \"Astrocat.\" She survived the trip.",
-        "Cats have free-floating clavicle bones that attach their shoulders to their forelimbs, which allows them to",
-        " Hearing is the strongest of cat's senses: They can hear sounds as high as 64 kHz — compared with humans, who",
+        "Cats have free-floating clavicle bones that attach their shoulders to their forelimbs, which allows them to squeeze through very small spaces.",
+        " Hearing is the strongest of cat's senses: They can hear sounds as high as 64 kHz — compared with humans, who can hear only as high as 20 kHz.",
         "Cats can move their ears 180 degrees.",
         "They can also move their ears separately.",
         "A cat has detected his human's breast cancer.",
@@ -91,7 +91,7 @@ facts = [
         "A cat rubs against people to mark its territory.",
         "Cats lick themselves to get your scent off.",
         "When a family cat died in ancient Egypt, family members would shave off their eyebrows as they mourned.",
-        "They also had elaborate memorials that included mummifying the cat and either burying it in a family tomb or",
+        "They also had elaborate memorials that included mummifying the cat and either burying it in a family tomb or pet cemetery.",
         "Cats were mythic symbols of divinity in ancient Egypt.",
         " Black cats are bad luck in the United States, but they are good luck in the United Kingdom and Australia.",
         "Most cats don't like water because their coats do not insulate them well enough.",
@@ -114,7 +114,7 @@ facts = [
         ]
 
 used = []
-body = "Meow! A friend subscribe you to Cat Facts!  You can respond with STOP if you'd like, but that won't stop you from receiving these awesome texts!  Enjoy :)"
+body = "Meow! A friend subscribed you to Cat Facts!  You can respond with STOP if you'd like, but that won't stop you from receiving these awesome texts!  Enjoy :)"
 send_mail(send_from, password, send_to, reply_to, subject, body)
 texts = 10 # number of texts to be sent
 wait_time = 5 # minutes
