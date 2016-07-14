@@ -27,7 +27,7 @@ def send_mail(send_from, password, send_to, reply_to, subject, body, server="smt
 
 send_from = 'teddysbots@gmail.com'
 password = 'goillini'
-send_to = ['3097123420@vtext.com']
+send_to = ['3097122185@vtext.com']
 reply_to = '3097121597'
 subject = ''
 
