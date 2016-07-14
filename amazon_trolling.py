@@ -24,8 +24,8 @@ def send_mail(send_from, password, send_to, reply_to, subject, body, server="smt
 
 send_from = 'teddysbots@gmail.com'
 password = 'goillini'
-send_to = ['3097122185@vtext.com']
+send_to = ['6309817815@vtext.com']
 reply_to = '262966'
 subject = ''
-body = "Shipped: Your Amazon purchase of Astroglide (1 gal) will be delivered soon, perv."
+body = "Shipped: Your Amazon package of Pink Furby (Quantity: 1,000) will be delivered Friday, July 15th."
 send_mail(send_from, password, send_to, reply_to, subject, body)
