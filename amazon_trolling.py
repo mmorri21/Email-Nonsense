@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-from __future__ import division
 import smtplib
-from email.MIMEMultipart import MIMEMultipart
-from email.MIMEText import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from email.Utils import COMMASPACE, formatdate
 def send_mail(send_from, password, send_to, reply_to, subject, body, server="smtp.gmail.com:587"):
     assert type(send_to)==list
@@ -22,8 +21,8 @@ def send_mail(send_from, password, send_to, reply_to, subject, body, server="smt
     smtp.sendmail(send_from, send_to, msg.as_string())
     smtp.close()
 
-send_from = 'teddysbots@gmail.com'
-password = 'goillini'
+send_from = #gmail_address_here
+password = #password_here
 send_to = ['3097122185@vtext.com']
 reply_to = '4865217516'
 subject = ''
